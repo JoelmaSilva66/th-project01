@@ -1,0 +1,71 @@
+*{
+   box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+.main-nav {
+    width: 100%;
+    min-height: 20px;
+    padding: 5px;
+    position: fixed;
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .nav .name {
+      display: block;
+      margin-right: auto;
+      color: white;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: rgb(35, 46, 133)
+  }
+
+#wrapper {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+  text-align: center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 100px;
+  background: linear-gradient( rgb(129, 220, 243),           transparent 90%),
+              linear-gradient(0deg, rgb(45, 46, 133), transparent),
+   #ffffff url('images/Jacksonville2.jpg') no-repeat center;
+  height: 380px;
+  width:100%;
+  margin-bottom:10px;
+}
+#logo {
+    text-shadow: 1px 1px 1px #000000;
+    color: #ffffff;
+    font-size: 4em;
+    margin-top:60px
+}
+
+.post {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  margin-bottom: 5px;
+
+}
